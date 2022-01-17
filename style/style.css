@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Open Sans;
+    color: #070707;
+}
+
+
+h1 {
+    font-size: 48px;
+    line-height: 64px;
+    margin: 0 0 40px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+p{
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.header .container {
+    padding: 23px 0 0px;
+}
+
+.header .border-shadow {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #828282;
+    box-shadow: 0 4px 4px 1px #dfdfdf;;
+}
+
+.nav-list {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-link {
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #828282;
+    text-shadow: 0 5px 4px #dfdfdf;
+}
+
+.nav-link.active {
+    color: #070707;
+}
+.hero-section {
+    padding: 30px 0 100px;
+}
+
+.hero-section .image-holder img {
+    width: 100%;
+}
+
+.about-me-section {
+    background-color: #F6F6F6;
+    padding: 100px 0 50px;
+}
+
+.about-me-section .container {
+    max-width: 480px;
+    width: 100%;    
+}
+
+.section-title {
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.about-me-section h1 {
+    margin-bottom: 25px;
+}
+.about-me-section p {
+    margin-bottom: 50px;
+}
+
+.skills-section .container {
+    padding: 101px 0 84px;
+    max-width: 937px;
+    width: 100%;
+}
+
+.skills-section h1 {
+    margin-bottom: 20px;
+}
+
+.skills-section p {
+    margin-bottom: 78px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.skills-item {
+    width: 25%;
+    padding: 0 45px ;
+}
+
+.skills-section .image-holder img {
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.skills-container p {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    margin-bottom: 60px;
+}
+
+#figma {
+    margin-bottom:76px; 
+}
+
+.portfolio-section {
+    background-color: #F6F6F6;
+    padding: 118px 0 23px;
+    text-align: center;
+}
+ 
+.portfolio-section h1 {
+    margin-bottom: 0;
+}
+
+.portfolio-box {
+    padding: 65px 0;
+}
+
+.portfolio-section .image-holder{
+    margin-bottom: 15px;
+}
+
+.portfolio-link {
+    color: #070707;
+}
+
+
+
+
+
+
+
+
+
