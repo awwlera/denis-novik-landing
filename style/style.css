@@ -148,7 +148,7 @@ p{
 }
 
 .portfolio-section :nth-child(2) {
-    margin-bottom: 129px;
+    margin-bottom: 133px;
 }
 
 .portfolio-section :nth-of-type(2) {
@@ -157,6 +157,10 @@ p{
 
 .portfolio-link {
     color: #070707;
+}
+
+.portfolio-image {
+    margin-bottom: 15px;
 }
 
 
