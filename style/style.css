@@ -20,6 +20,7 @@ img {
     display: block;
     max-width: 100%;
 }
+
 p{
     font-size: 18px;
     line-height: 25px;
@@ -79,15 +80,15 @@ p{
     padding: 100px 0 50px;
 }
 
-.about-me-section .container {
-    max-width: 480px;
-    width: 100%;    
-}
-
 .section-title {
     font-size: 34px;
     line-height: 46px;
     text-align: center;
+}
+
+.about-me-section .container {
+    max-width: 480px;
+    width: 100%;    
 }
 
 .about-me-section h1 {
@@ -113,9 +114,9 @@ p{
 
 .skills-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
-    align-items: center;
+    align-items:center;
 }
 
 .skills-item {
@@ -143,28 +144,25 @@ p{
 
 .portfolio-section {
     background-color: #F6F6F6;
-    padding: 118px 0 23px;
+    padding: 119px 0 102px;
     text-align: center;
 }
- 
-.portfolio-section h1 {
-    margin-bottom: 0;
+
+.portfolio-section h1{
+    margin-bottom: 68px;
 }
 
-.portfolio-box {
-    padding: 65px 0;
+.portfolio-section :nth-child(2) {
+    margin-bottom: 129px;
 }
 
-.portfolio-section .image-holder{
-    margin-bottom: 15px;
+.portfolio-section :nth-of-type(2) {
+    margin-bottom: 136px;
 }
 
 .portfolio-link {
     color: #070707;
 }
-
-
-
 
 
 
