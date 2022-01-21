@@ -133,7 +133,7 @@ p{
     margin-bottom: 60px;
 }
 
-#figma {
+.figma {
     margin-bottom:76px; 
 }
 
@@ -143,25 +143,21 @@ p{
     text-align: center;
 }
 
-.portfolio-section h1{
-    margin-bottom: 68px;
+.portfolio-box > .image-holder {
+    margin-bottom: 16px;
 }
 
-.portfolio-section :nth-child(2) {
-    margin-bottom: 133px;
+.portfolio-box {
+    margin-bottom: 130px;
 }
 
-.portfolio-section :nth-of-type(2) {
-    margin-bottom: 136px;
+.portfolio-box:last-of-type {
+    margin-bottom: 0;
 }
-
 .portfolio-link {
     color: #070707;
 }
 
-.portfolio-image {
-    margin-bottom: 15px;
-}
 
 
 
